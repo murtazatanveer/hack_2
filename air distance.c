@@ -31,6 +31,12 @@ double c = (lat_of_des*pi)/180;
 double d = (lon_of_des*pi)/180;
 
 
+// i use the converted radians a , b , c and d in formula given below
+
+double diff = ( d - b);
+
+// implementing formula 
+
 
 
 
