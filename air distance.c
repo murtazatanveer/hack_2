@@ -2,6 +2,16 @@
 #include<math.h>
 int main(){
 
+// MADE BY : MURTAZA TANVEER
+	// 
+	// REG NO : SP23-BSE-096-2C
+	
+   printf("\nMADE BY : MURTAZA TANVEER\n\nREG NO  : SP23-BSE-096-2C\n\n\n");
+   
+   printf("____________DISTANCE CALCULATION PLATFOAM____________\n\n\n");
+
+
+
 double lat_of_ori , lon_of_ori , lat_of_des , lon_of_des;
 
 const float pi = 3.14;
@@ -50,7 +60,7 @@ double diff = ( d - b);
 
 double distance;
 
-distance = acos(sin(lat_of_ori) * sin(lat_of_des) + cos(lat_of_ori) * cos(lat_of_ori) * cos(diff)) * (earth_rad);
+distance = acos(sin(a) * sin(c) + cos(a) * cos(c) * cos(diff)) * (earth_rad);
 
 
 printf("\n\n\n _______LOCATION DISTANCE________\n\n");
@@ -59,7 +69,9 @@ printf("ORIGIN : ( %.6lf , %.6lf )\n\n",lat_of_ori ,lon_of_ori);
 
 printf("DESTINATION : ( %.6lf , %.6lf )\n\n",lat_of_des, lon_of_des);
 
+printf("AIR DISTANCE :  %.6lf  KMS \n\n",distance);
 
+//  compiling......
 
 
 
