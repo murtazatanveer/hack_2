@@ -26,6 +26,10 @@ double a = (lat_of_ori*pi)/180;
 
 double b = (lon_of_ori*pi)/180;
 
+double c = (lat_of_des*pi)/180;
+
+double d = (lon_of_des*pi)/180;
+
 
 
 
