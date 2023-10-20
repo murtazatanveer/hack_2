@@ -53,6 +53,14 @@ double distance;
 distance = acos(sin(lat_of_ori) * sin(lat_of_des) + cos(lat_of_ori) * cos(lat_of_ori) * cos(diff)) * (earth_rad);
 
 
+printf("\n\n\n _______LOCATION DISTANCE________\n\n");
+
+printf("ORIGIN : ( %.6lf , %.6lf )\n\n",lat_of_ori ,lon_of_ori);
+
+printf("DESTINATION : ( %.6lf , %.6lf )\n\n",lat_of_des, lon_of_des);
+
+
+
 
 
 
