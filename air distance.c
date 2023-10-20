@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<math.h>
 int main(){
 
 double lat_of_ori , lon_of_ori , lat_of_des , lon_of_des;
@@ -35,10 +36,17 @@ double d = (lon_of_des*pi)/180;
 
 double diff = ( d - b);
 
-// implementing formula 
 
+ 
+ // before implementing formula i use "const" with pi and radius of earth because it is constant in program
 
+  const float pi = 3.14;
 
+  const float earth_rad;
+
+// implementing formula and adding math.h header file
+
+double distance;
 
 
 
