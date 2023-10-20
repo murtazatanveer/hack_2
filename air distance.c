@@ -42,13 +42,13 @@ double diff = ( d - b);
 
   const float pi = 3.14;
 
-  const float earth_rad;
+  const float earth_rad = 6371.0;
 
 // implementing formula and adding math.h header file
 
 double distance;
 
-
+distance = acos(sin(lat_of_ori) * sin(lat_of_des) + cos(lat_of_ori) * cos(lat_of_ori) * cos(diff)) * (earth_rad);
 
 
 
